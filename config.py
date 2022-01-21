@@ -9,8 +9,8 @@ Author: Varun Jampani
 import os
 
 CAFFEDIR = './lib/caffe/'
-DATADIR = '/home/xpan/code/ssnsuperpixelcode/data/BSDS500/data/'
-LISTDIR = '/home/xpan/code/ssnsuperpixelcode0/data/'
+DATADIR = './data/BSDS500/data/'
+LISTDIR = './data/'
 
 IMG_LIST = {}
 IMG_FOLDER = {}
@@ -29,15 +29,11 @@ IMG_LIST['TEST'] = LISTDIR + 'test.txt'
 IMG_FOLDER['TEST'] = DATADIR + 'images/test/'
 GT_FOLDER['TEST'] = DATADIR + '/groundTruth/test/'
 
-"""
-IMG_LIST['TEST'] = LISTDIR + 'test.txt'
-IMG_FOLDER['TEST'] = DATADIR + 'images/sampleimages/'
-GT_FOLDER['TEST'] = DATADIR + '/groundTruth/test/'
-"""
+
 
 IGNORE_VALUE = 255
 RAND_SEED = 2356
 
-TRAIN_BATCH_SIZE = 5
+TRAIN_BATCH_SIZE = 6
 TRAIN_PATCH_WIDTH = 201
 TRAIN_PATCH_HEIGHT = 201
