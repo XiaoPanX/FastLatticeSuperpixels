@@ -6,6 +6,7 @@ In this paper, we propose a new superpixel generation method which can generate 
 The initial superpixels are shown in (a). We adjust the boundaries of superpixels from coarse to fine by moving the multilevel blocks as shown in (b)-(d). We refine the boundaries by adjusting the boundary pixels to get the final superpixels as shown in (e)
 
 Citation:
+
 @article{pan2022fast,
 
   title={Fast Generation of Superpixels With Lattice Topology},
