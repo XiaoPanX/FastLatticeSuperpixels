@@ -8,7 +8,6 @@ The initial superpixels are shown in (a). We adjust the boundaries of superpixel
 Citation:
 
 @article{pan2022fast,
-
   title={Fast Generation of Superpixels With Lattice Topology},
   author={Pan, Xiao and Zhou, Yuanfeng and Zhang, Yunfeng and Zhang, Caiming},
   
