@@ -10,7 +10,7 @@ from init_caffe import *
 from caffe import layers as L, params as P, to_proto
 from caffe.proto import caffe_pb2
 import tempfile
-from loss_functions import *
+#from loss_functions import *
 
 trans_dim = 15
 
