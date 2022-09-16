@@ -10,7 +10,6 @@ Citation:
 @article{pan2022fast,
 
   title={Fast Generation of Superpixels With Lattice Topology},
-  
   author={Pan, Xiao and Zhou, Yuanfeng and Zhang, Yunfeng and Zhang, Caiming},
   
   journal={IEEE Transactions on Image Processing},
