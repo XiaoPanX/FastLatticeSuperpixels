@@ -19,7 +19,7 @@ s_w=2
 s_l=3
 
  modelA = SpixelTransNet(batchNorm=True)
-  modelA.load_weights_from_pkl('weights0112.pkl')
+  modelA.load_weights_from_pkl('BSDweight.pkl')
   modelA = modelA.cuda()
   modelA.eval()
 image = img_as_float(io.imread(imgname))
