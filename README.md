@@ -67,14 +67,24 @@ You can change the number of generated superpixels by setting the parameters of 
 
 #### Pytorch Installation
 We also provide a simple pytorch version of our algorithm. In order to run this pytorch code, each cuda file needs to be compiled first.
- 1. cd ./Pytorchversion/modelsA/latticesuperpixelcuda/
+
+ 1.
+    ```
+    cd ./Pytorchversion/modelsA/latticesuperpixelcuda/
     python setup.py install
- 2. cd ../..
+    ```
+2.
+    ```
+    cd ../..
     cd pixelfeaturecuda
-     python setup.py install
- 3. cd ..
+    python setup.py install
+    ```
+ 3. 
+    ```
+    cd ..
     cd superpixelcolorcuda
     python setup.py install
+    ```
 Then you can use the superpixel generation algorithm in your own code. See the code in the file `example.py` for details.
 
 Citation:\
